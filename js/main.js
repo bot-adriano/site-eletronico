@@ -1,0 +1,1 @@
+$('.slider-principal').slick();  //pegamos o modelo tb daquele site de js e como é ". "antes de single teremos que atribuir uma classe etrocaremos  por slider principal que é a clasee que criamos
