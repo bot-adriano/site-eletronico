@@ -1,23 +1,23 @@
-body{// não é obrigatorio mas é bom fazer
+.body{               /*// não é obrigatorio mas é bom fazer*/
     width: 100%;
     height: 100%;
     
 }
-ul{
+.ul{ /* // referecia a barra de redes sociais*/
     padding: 0px!important;
 }
 .menu-principal{
-    width: 100%;
+    width: 100%;           /*//barra azul*/
     background-color:#166fa7;
     height: 60px;
 }
-main{
+.main{
     margin: 0 auto;
     width: 980px;
 
     position:relative;
 }
-.logo{
+.logo{ /*  //imagem do kabum*/
     margin-top: 0px;
     float: left;
     padding: 0px;
@@ -26,8 +26,8 @@ main{
 }
 .redes-sociais ul li {
     margin-left: 25px;
-    display inline-block;
-    float: left;
+    display :inline-block;
+ 
     list-style: none;
 }
 .redes-sociais{
@@ -37,19 +37,19 @@ main{
 .header-2{
     background-color: #e74e11;
     width: 980px;
-    margin: 0 auto;
-    padding: 70px;
+    margin: 10 auto; /* //barra laranja grande*/
+    padding: 50px;
   
 
 }
 .menu-url{
-    height: 80px;
+    height: 50px;
     border-bottom: 3px solid#f16818;
 
 }
 .menu ul li {
     display:inline-block;
-    color: #0a5c02;
+    color: #0a5c02;  /* //ul li referencia as logos das redes sociais e menus interativos*/
     margin-left: 10px;
     height: 50px;
     
@@ -77,29 +77,78 @@ main{
     width: 100%;
     float:left;
 }
-.busca{
+.busca{/*campo de busca*/
     text-align: center;
     width: 30%;
     float: right;
+    top: 10%;
+ 
    
 }
-.busca input{
-    margin-top: 0px;
-    height: 50px;
+.busca input{/*configuracao da pagina de busca*/
+    margin-top: 00px;
+    height: 30px;
     padding: 7px;
     width: 190px;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
     background-position: 96%; ;
     border:1px solid #6656c0;
+    z-index: 9;
+    
 
 
 }
 .col-100{
-    width: 100%;
+    width: 80%;
   
     position: relative;
-    margin-top: 10px;
-    height: 50px;
+    margin-top: 40px;
+    height: 40px;
+}
+button.slick-prev{/*setas do painel*/
+ font: size 0px ;
+ border:none;
+ width: 205px;
+ height: 250px;
+ background-color: transparent;
+ background-image: url('../img/s1.png');
+ position:absolute;
+ z-index: 9;
+ top: 920%;
+}
+button.slick-next{/*setas do painel*/
+    font: size 0px ;
+    border:none;
+    width: 205px;
+    height: 250px;
+    background-color: transparent;
+    background-image: url('../img/s1.png');
+    position:absolute;
+    z-index: 309;
+    top: 920%;
+    right: 0;
+   
+   }
+   .slider-principal{ 
+       width: 100% !important;
+   }
+   ul.slick-dots li button{
+       display:inline-block;
+       font-size:  0px; 
+       border: 3px solid #e74e11;
+       border-radius: 50%;
+       width: 20px;
+       height: 20px;
+     
+
+
+   }
+   ul.slick-dots li.slick-active{
+    
+    background-color: rgb(114, 14, 180);
+    
+
 }
 
+/*// se tiver duvida dos botoes pode apertar f12 dentro do navegador com a pagina aberta que abre o console e la quando passar o mouse em cima ele mosrta de onde é cada coisa*/
