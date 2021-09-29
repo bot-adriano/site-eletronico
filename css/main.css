@@ -133,22 +133,42 @@ button.slick-next{/*setas do painel*/
    .slider-principal{ 
        width: 100% !important;
    }
-   ul.slick-dots li button{
-       display:inline-block;
+  .slick-dots li button{
+       display:inline-block;/*configurações dos botões do painel*/
        font-size:  0px; 
-       border: 3px solid #e74e11;
+       border: 5px solid #11e723;
        border-radius: 50%;
-       width: 20px;
-       height: 20px;
+       width: 25px;
+       height: 25px;
+       cursor: pointer;
+       background: transparent;
      
 
 
    }
-   ul.slick-dots li.slick-active{
-    
-    background-color: rgb(114, 14, 180);
+   .slick-dots{
+       margin: o auto;
+       width: 50%;
+       position:relative ;
+       left: 45%;
+       top: 2700%;
+       position: absolute;
+   }
+   .slick-dots li{/*configurações dos botoes do painel*/
+    display: inline-block;
+   
     
 
+}
+li.slick-active button{
+    background: #1e00a5;
+
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;/*esconder barra de rolagem */
 }
 
 /*// se tiver duvida dos botoes pode apertar f12 dentro do navegador com a pagina aberta que abre o console e la quando passar o mouse em cima ele mosrta de onde é cada coisa*/
