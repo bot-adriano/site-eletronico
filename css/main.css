@@ -11,9 +11,9 @@
     background-color:#166fa7;
     height: 60px;
 }
-.main{
+.main, .content{
     margin: 0 auto;
-    width: 980px;
+    width: 400px;
 
     position:relative;
 }
@@ -35,16 +35,18 @@
     float: right;
 }
 .header-2{
-    background-color: #e74e11;
+    background-color: #43e711;
     width: 980px;
-    margin: 10 auto; /* //barra laranja grande*/
-    padding: 50px;
+    margin: 0 auto; /* //barra laranja grande*/
+    padding: 50px
+
   
 
 }
 .menu-url{
     height: 50px;
-    border-bottom: 3px solid#f16818;
+    border-bottom: 3px solid#b418f1;
+    top: 10%;
 
 }
 .menu ul li {
@@ -100,33 +102,32 @@
 
 }
 .col-100{
-    width: 80%;
-  
+    width: 60%;
     position: relative;
-    margin-top: 40px;
-    height: 40px;
+    margin-top: 0px;
+    height: 260px;
 }
 button.slick-prev{/*setas do painel*/
  font: size 0px ;
  border:none;
- width: 205px;
+ width: 250px;
  height: 250px;
  background-color: transparent;
  background-image: url('../img/s1.png');
  position:absolute;
  z-index: 9;
- top: 920%;
+ top: 20%;
 }
 button.slick-next{/*setas do painel*/
     font: size 0px ;
     border:none;
-    width: 205px;
+    width: 250px;
     height: 250px;
     background-color: transparent;
     background-image: url('../img/s1.png');
     position:absolute;
     z-index: 309;
-    top: 920%;
+    top: 20%;
     right: 0;
    
    }
@@ -150,8 +151,8 @@ button.slick-next{/*setas do painel*/
        margin: o auto;
        width: 50%;
        position:relative ;
-       left: 45%;
-       top: 2700%;
+       left: 35%;
+       top: 10%;
        position: absolute;
    }
    .slick-dots li{/*configurações dos botoes do painel*/
@@ -160,7 +161,7 @@ button.slick-next{/*setas do painel*/
     
 
 }
-li.slick-active button{
+li.slick-active button{/*fundo do botao do painel*/
     background: #1e00a5;
 
 }
@@ -169,6 +170,29 @@ li.slick-active button{
 }
 .slick-initialized{
     overflow: hidden;/*esconder barra de rolagem */
+}
+.texto-destaque{
+    top: 10;
+     background-color: blue;
+     width: 100%;
+
+}
+.texto-destaque h1{
+    color: rgb(121, 2, 41);
+}
+.texto-destaque p {
+    color: #1e00a5;
+}
+.col-3{
+    display:inline-block;/*configurações dos botões do painel*/
+   
+    margin-left: 10px;
+    border: 5px solid #11e723;
+    width: 200px;
+    height: 350px;
+  
+    background: transparent;
+  
 }
 
 /*// se tiver duvida dos botoes pode apertar f12 dentro do navegador com a pagina aberta que abre o console e la quando passar o mouse em cima ele mosrta de onde é cada coisa*/
