@@ -1,137 +1,248 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <!--referencia para usar css-->
-    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
-    <!--colado do site https://kenwheeler.github.io/slick/ -->
-    <title> site de vendas </title>
-    <!--titulo-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Easy Tech</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <header class="menu-principal">
-        <main>
-            <div class="header-1">
-                <div class="logo">
-                    <img src="./img/l1.png" />
-                    <!--logo do kabum-->
-                </div>
-                <div class="redes-sociais">
-                    <div class="cabeloja">
-                        <!-- redes sociais -->
-                        <ul>
-                            <li><a href=""><img src="./img/ac.png" /></a></li>
-                            <li><a href=""><img src="./img/carrinho.png" /></a></li>
-                            <li><a href=""><img src="./img/like.png" /></a></li>
-
-
-
-                            <div class="compras">
-                                <a href="carrinho.html">
-                                    <ol>
-                                        <li>minhas compras</li>
-                                        <li><img class="carrinho" src="./img/carrinho.png"></li>
-                                    </ol>
-                                </a>
-                            </div>
-                    </div>
-                    </ul>
-
-                </div>
-            </div>
-        </main>
-
+  <div id="container">
+    <header>
+      <picture>
+        <a href="index.html">
+          <img src="img/logo-150.png" alt="logo" width="118px">
+        </a>
+      </picture>
     </header>
-    <main class="col-100 menu-url">
-        <!--barra de menu-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="login.html">Fazer Login</a></li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
 
-        <div class="header-2">
-            <div class="menu">
-                <ul>
-                    <li><a href="">tudo</a></li>
-                    <!--itens selecionaveis -->
-                    <li><a href="">coisanova</a></li>
-                    <li><a href="">tem q ver</a></li>
-                    <li><a href="">cheiodeluzinha</a></li>
-                    <li><a href="">essencial</a></li>
-                    <li><a href="">vip home</a></li>
-                </ul>
+    <main>
 
-            </div>
-            <div class="busca">
-                <input placeholder="fala oq vc quer mané" type="text" />
-                <!--caixa de pesquisa-->
+      <section id="produtos">
+        <section class="produto">
+          <a href="p01.MonitorGamer23.6Acer144HzFullHD.html">
+            <img src="img/produto01.jpg">
+            <p>Monitor Gamer 23.6" Acer 144Hz FullHD</p>
+            <section class="preco">
+              <p><strong>R$ 1.399,90</strong></p>
+            </section>
+            <section class="botao">
+              <p>Comprar</p>
+          </a>
+        </section>
+      </section>
 
-            </div>
+      <section class="produto">
+        <a href="p02.HyperXTecladoMecanicoGamerRGB.html.html">
+          <img src="img/produto02.jpg">
+          <p>Teclado Mecânico Gamer HyperX RGB</p>
+          <section class="preco">
+            <p><strong>R$ 299,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
 
+      <section class="produto">
+        <a href="p03.MouseGamerLogitech8.000DPI-Black.html">
+          <img src="img/produto03.jpg">
+          <p>Mouse Gamer Logitech 8.000 DPI - Black</p>
+          <section class="preco">
+            <p><strong>R$ 109,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
 
-        </div>
+      <section class="produto">
+        <a href="p04.MouseGamerRedragonCobraRGB7Botões10000DPILunarWhiteM711W.html">
+          <img src="img/produto11.jpg">
+          <p>Mouse Gamer Redragon <br> Cobra Lunar 10.000 DPI</p>
+          <section class="preco">
+            <p><strong>R$ 109,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p05.HeadsetGamerHyperXCloudStingerS7.1SurroundBlack.html">
+          <img src="img/produto12.jpg">
+          <p>Headset Gamer HyperX Cloud Stinger S</p>
+          <section class="preco">
+            <p><strong>R$ 435,55</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p06.CadeiraGamerTC3ThunderX3PretoVermelho.html">
+          <img src="img/produto04.jpg">
+          <p>Cadeira Gamer THUNDERX3 - Red</p>
+          <section class="preco">
+            <p><strong>R$ 1.399,95</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p07.CadeiraGamerTC3ThunderX3Preto.html">
+          <img src="img/produto07.jpg">
+          <p>Cadeira Gamer THUNDERX3 - Black</p>
+          <section class="preco">
+            <p><strong>R$ 1.399,95</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p08.ConsolePlayStation5.html">
+          <img src="img/produto08.jpg">
+          <p>Console <br> PlayStation 5</p>
+          <section class="preco">
+            <p><strong>R$ 6.068,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p09.ConsoleXboxSeriesX.html">
+          <img src="img/produto09.jpg">
+          <p>Console <br> Xbox Series X</p>
+          <section class="preco">
+            <p><strong>R$ 2.469,91</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p10.SSDA400KingstonSA400S37.240G.html">
+          <img src="img/produto05.jpg">
+          <p>SSD A400 <br> Kingston - 240GB</p>
+          <section class="preco">
+            <p><strong>R$ 189,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p11.HyperX-MemoriaFuryde16GB.html">
+          <img src="img/produto10.jpg">
+          <p>HyperX - Memória Fury de 16GB </p>
+          <section class="preco">
+            <p><strong>R$ 779,00</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p12.MousePadProfessionalGamerHavit.html">
+          <img src="img/produto06.jpg">
+          <p>Mouse Pad Professional Gamer Havit 30x90 cm</p>
+          <section class="preco">
+            <p><strong>R$44,90</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p13.TecladoMecanicoGamerRedragonKumara.html">
+          <img src="img/produto13.jpg">
+          <p>Teclado Gamer Redragon Mecânico </p>
+          <section class="preco">
+            <p><strong>R$ 242,00</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p14.ControleDualSense-Branco.html">
+          <img src="img/produto14.jpg">
+          <p>Controle DualSense - Branco </p>
+          <section class="preco">
+            <p><strong>R$ 359,10</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p15.ControleSemFioXboxRobotWhite.html">
+          <img src="img/produto15.jpg">
+          <p>Controle sem Fio Xbox - Robot White</p>
+          <section class="preco">
+            <p><strong>R$ 404,91</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      <section class="produto">
+        <a href="p16.MonitorGamerAlienwareFullHDIPS.html">
+          <img src="img/produto16.jpg">
+          <p>Monitor Gamer Alienware Full HD IPS 24,5" 240Hz</p>
+          <section class="preco">
+            <p><strong>R$3.509,10</strong></p>
+          </section>
+          <section class="botao">
+            <p>Comprar</p>
+        </a>
+      </section>
+      </section>
+
+      </section>
     </main>
-    <div class="col-100">
-        <div class="slider-principal">
-            <img src="./img/c2.png" />
-            <!--criamos a div e colamos o conteudo copiaado do mesmo site do js com o conteudo html-->
-            ><img src="./img/c3.png" />
-            <img src="./img/c1.jpg" />
-            <!--essas são as imagens do slide-->
-        </div>
-    </div>
-    <div class="col-100">
-        <div class="content texto-destaque">
-            <!--texto da pagina-->
-            <p>tem só coisa boa no site aproveita ae</p>
-            <h1>escolhe ae mano</h1>
-            <div class="col-3"><a
-                    href="https://www.kabum.com.br/produto/94555/mouse-gamer-redragon-cobra-10000dpi-chroma-preto-m711"
-                    class="sc-cnXfEn aKKsm"><img class="imageCard" src="img/r1.jpg"
-                        title="processador super fodA, pegue e vai ter 12342342fps ao seu jogo"
-                        alt="Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711" width="182" height="132">
-                    <h2 height="54" class="sc-jToBUn cmAyhu sc-iOTqAP jHqash nameCard">processador super fodA, pegue e
-                        vai ter 12342342fps ao seu jogo</h2>
-                    <div class="sc-hDjkaZ bDZBij availablePricesCard"><span
-                            class="sc-lbNIYQ dKFecO oldPriceCard">R$&nbsp;3000,00</span><span
-                            class="sc-cBkwyD crRkgg priceCard">R$&nbsp;99999,00</span><span
-                            class="sc-fZOVwu bijgiw priceTextCard">pago no metro</span></div>
-                </a></div>
-            <div class="col-3"><a
-                    href="https://www.kabum.com.br/produto/94555/mouse-gamer-redragon-cobra-10000dpi-chroma-preto-m711"
-                    class="sc-cnXfEn aKKsm"><img class="imageCard"
-                        src="https://images5.kabum.com.br/produtos/fotos/94555/94555_1516707116_index_m.jpg"
-                        title="Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711"
-                        alt="Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711" width="182" height="132">
-                    <h2 height="54" class="sc-jToBUn cmAyhu sc-iOTqAP jHqash nameCard">Mouse Gamer Redragon Cobra,
-                        10000DPI, Chroma, Preto - M711</h2>
-                    <div class="sc-hDjkaZ bDZBij availablePricesCard"><span
-                            class="sc-lbNIYQ dKFecO oldPriceCard">R$&nbsp;171,65</span><span
-                            class="sc-cBkwyD crRkgg priceCard">R$&nbsp;114,90</span><span
-                            class="sc-fZOVwu bijgiw priceTextCard">À vista no PIX</span></div>
-                </a></div>
-            <div class="col-3"></div><a href="https://www.pokemon.com/br/" class="sc-cnXfEn aKKsm"><img
-                    class="imageCard" src="img/p1.png"
-                    title="Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711"
-                    alt="Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711" width="182" height="132">
-                <h2 height="54" class="sc-jToBUn cmAyhu sc-iOTqAP jHqash nameCard">se torne um mestre pokemon</h2>
-                <div class="sc-hDjkaZ bDZBij availablePricesCard"><span
-                        class="sc-lbNIYQ dKFecO oldPriceCard">R$&nbsp;171,65</span><span
-                        class="sc-cBkwyD crRkgg priceCard">R$&nbsp;114,90</span><span
-                        class="sc-fZOVwu bijgiw priceTextCard">À vista no PIX</span></div>
-            </a>
-        </div>
-
-
-    </div>
-
-    </div>
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <!--copiado script do sitehttps://kenwheeler.github.io/slick/ para usar js-->
-    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
-    <!--bibliotecas do js-->
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <!--https://kenwheeler.github.io/slick/-->
-    <script type="text/javascript" src="./js/main.js"></script>
-    <!--aqui teremos que chamar o main do js pra funcionar-->
-
+    <footer>
+      <p>&copy; Desenvolvido por Mateus Alves - <a href="https://github.com/matealves" target="_blank">Acesse meu GitHub</a></p>
+    </footer>
+  </div>
 </body>
 
 </html>
