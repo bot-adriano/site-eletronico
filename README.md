@@ -59,7 +59,7 @@ Projeto desenvolvido para a faculdade, com intuito de me aprimorar no desenvolvi
 Entre em contato através dos links a seguir.
 <br>
 <br>
-<a href="https://www.linkedin.com/in/claudio-kend-imai-637baa174/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/claudioimai1/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 
 
